@@ -201,9 +201,12 @@ class vehicle {
       this.topSpeed = topSpeed;
       this.wheels = wheels;
       this.towingCapacity = towingCapacity;
-    }
-  }
 
+      console.log(`color: ${this.color}`)
+    }
+    
+  }
+  
   // TODO: Create a constructor that accepts the properties of the Truck class
  class Truck {
   constructor(private model: string, private weight: string) {}
@@ -231,9 +234,7 @@ describe(): string {
           
     // TODO: The constructor should initialize the properties of the Truck class
     
-
-
-   
+      
         
    
     // TODO: The constructor should check if the wheels array has 4 elements and create 4 new default Wheel objects if it does not
@@ -307,6 +308,15 @@ describe(): string {
       this.year = year;
       this.payloadCapacity = payloadCapacity;
       this.towingCapacity = towingCapacity;
+      console.log(`year: ${this.year}`)
+
+      console.log(`model: ${this.model}`)
+
+      console.log(`make:${this.make}`)
+
+      console.log(`payloadCapacity: ${this.payloadCapacity}`)
+
+      console.log(`towingCapacity: ${this.payloadCapacity}`)
   }
     
 
@@ -355,7 +365,9 @@ describe(): string {
 
     // TODO: The method should log the details of the Truck
     
+    
    
+    
       
   
       
